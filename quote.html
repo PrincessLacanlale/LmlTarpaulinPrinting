@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quote - LML ArtsnSign Printing</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        
+            <!-- Logo Section -->
+            <a href="quote.html" class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <div class="logo-text">
+                TARPAULIN PRINTING
+            </div>
+
+            <!-- Navigation Section -->
+            <nav id="nav">
+                <ul id="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <!-- Right Header Section -->
+            <div class="header-right">
+                <a href="quote.html" class="quote-button">Request a Quotation</a>
+            </div>
+        </header>
+  
+        <div id = "hero" class = "tablet-desktop">
+			<img src = "images/quotation.jpg" alt = "Quotation"/>
+		</div>
+        <!-- Main Content Section -->
+        <main>
+            <section class="quote-page">
+                <h1>To get a personalized quote for your printing needs, </h1>
+                
+                <h2> PLEASE FILL OUT OUR REQUEST FORM </h2>
+                    
+                    <!-- Quote Form -->
+                    <div class="quote-form">
+                        <form action="/submit" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        
+                            <label for="contact_number">Contact Number:</label>
+                            <input type="text" id="contact_number" name="contact_number" required>
+                        
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        
+                            <label for="details">Details of what you want:</label>
+                            <textarea id="details" name="details" rows="5" required></textarea>
+                        
+                            <button type="submit">Submit</button>
+                        </form>
+                        
+                    </div>
+                    
+            </section>
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <a href="https://www.facebook.com/lmlartsnsign/" target="_blank">
+                        <img src="images/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.gmail.com" target="_blank">
+                        <img src="images/gmail.png" alt="Gmail">
+                    </a>
+                    <a href="contact.html" target="_blank">
+                        <img src="images/telephone.png" alt="Telephone">
+                    </a>
+                    
+                </div>
+                <div class="footer-column">
+                    <p>Monday - Saturday: 8:30 AM to 9:00 PM</p>
+                    <p>&copy; 2024 LML ArtsnSign. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script> <!-- Optional JavaScript -->
+    </div>
+</body>
+</html>

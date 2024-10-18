@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - LML ArtsnSign Printing</title>
+    <link rel="icon" href="images/logo.png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        
+            <!-- Logo Section -->
+            <a href="contact.html" class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </a>
+            <div class="logo-text">
+                TARPAULIN PRINTING
+            </div>
+            
+            <!-- Navigation Section -->
+            <nav id="nav">
+                <ul id="nav-links">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            
+            <!-- Right Header Section -->
+            <div class="header-right">
+                <a href="quote.html" class="quote-button">Request a Quotation</a>
+            </div>
+        </header>    
+
+        <div id = "hero" class = "tablet-desktop">
+			<img src = "images/contact.jpg" alt = "contact"/>
+		</div>
+		
+
+        <!-- Main Content Section -->
+        <main>
+            <section class="contact-page">
+                <h1>We look forward to hearing from you. Please reach out to us through the contact information below or fill out the form to send us a message directly.</h1>
+                
+                <div class="contact-container">
+                    <!-- Contact Info Section -->
+                    <div class="contact-info">
+                        <h2>Get in Touch</h2>
+                        <p><strong>Phone:</strong> <br>
+                            <span class="phone">0953 501 5519<br> 0965 199 3288</span>
+                        <p><strong>Email:</strong><br>
+                             <a href="mailto:litoartsnign@yahoo.com">litoartsnign@yahoo.com</a><br>
+                             <a href="mailto:lmlartsnign@gmail.com">lmlartsnign@gmail.com</a></p>
+
+                        <p><strong>Address:</strong><br>
+                            <span class="address">5HMP+98C, MacArthur Hwy,<br>
+                            Mabalacat, Pampanga 2010</span>
+                        <p><strong>Hours of Operation:</strong><br>
+                           Monday - Saturday: 8:30 AM to 9:00 PM<br>
+                           Available 24 Hours Online.
+                        </p>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <h2>SEND US A MESSAGE</h2>
+                        
+                        <form action="/submit" method="post">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                    
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                    
+                            <label for="location">Location:</label>
+                            <input type="text" id="location" name="location" required>
+                    
+                            <label for="phone">Phone Number:</label>
+                            <input type="tel" id="phone" name="phone" required>
+                    
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                    
+                            <button type="submit">Submit</button>
+                        </form>
+                    </div>
+                </section>
+                    
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=5HMP%2B98C%2C%20MacArthur%20Hwy%2C%20Mabalacat%2C%20Pampanga%202010%20LML&t=&z=14&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                        </div>
+                    </div>
+                    
+                    
+           
+        </main>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <div class="footer-column">
+                    <a href="https://www.facebook.com/lmlartsnsign/" target="_blank">
+                        <img src="images/facebook.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.gmail.com" target="_blank">
+                        <img src="images/gmail.png" alt="Gmail">
+                    </a>
+                    <a href="contact.html" target="_blank">
+                        <img src="images/telephone.png" alt="Telephone">
+                    </a>
+                    
+                </div>
+                <div class="footer-column">
+                    <p>Monday - Saturday: 8:30 AM to 9:00 PM</p>
+                    <p>&copy; 2024 LML ArtsnSign. All Rights Reserved.</p>
+                </div>
+            </div>
+        </footer>
+        <script src="js/script.js"></script> 
+    </div>
+</body>
+</html>
